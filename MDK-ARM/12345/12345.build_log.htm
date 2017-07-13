@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 000 000, 000, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.23
+Toolchain Path:  G:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+C:\Users\TaLLa\Desktop\12345 - Kopie\MDK-ARM\12345.uvprojx
+Project File Date:  04/07/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'G:\Keil_v5\ARM\ARMCC\Bin'
+Build target '12345'
+compiling main.c...
+../Src/main.c(77): warning:  #177-D: variable "amount"  was declared but never referenced
+  	uint8_t amount=0,a=0x75|0x80,atx[2]={0x75|0x80,0x00},b=0;
+../Src/main.c(77): warning:  #177-D: variable "a"  was declared but never referenced
+  	uint8_t amount=0,a=0x75|0x80,atx[2]={0x75|0x80,0x00},b=0;
+../Src/main.c(77): warning:  #177-D: variable "atx"  was declared but never referenced
+  	uint8_t amount=0,a=0x75|0x80,atx[2]={0x75|0x80,0x00},b=0;
+../Src/main.c(77): warning:  #177-D: variable "b"  was declared but never referenced
+  	uint8_t amount=0,a=0x75|0x80,atx[2]={0x75|0x80,0x00},b=0;
+../Src/main.c(78): warning:  #177-D: variable "buffer"  was declared but never referenced
+  	uint8_t buffer[3]={0x55,0x12,0x99};
+../Src/main.c(79): warning:  #177-D: variable "hal"  was declared but never referenced
+  	uint8_t hal=0x75,rx[2];
+../Src/main.c(79): warning:  #177-D: variable "rx"  was declared but never referenced
+  	uint8_t hal=0x75,rx[2];
+../Src/main.c(80): warning:  #177-D: variable "k"  was declared but never referenced
+  	uint16_t k=0;
+../Src/main.c(82): warning:  #177-D: variable "countervalue"  was declared but never referenced
+  	uint32_t countervalue=0;
+../Src/main.c(84): warning:  #177-D: variable "Temperatur"  was declared but never referenced
+  	double Temperatur,cls,roll,pitch,rad_to_deg,Ax,Ay,Az;
+../Src/main.c(84): warning:  #177-D: variable "roll"  was declared but never referenced
+  	double Temperatur,cls,roll,pitch,rad_to_deg,Ax,Ay,Az;
+../Src/main.c(84): warning:  #177-D: variable "pitch"  was declared but never referenced
+  	double Temperatur,cls,roll,pitch,rad_to_deg,Ax,Ay,Az;
+../Src/main.c(84): warning:  #177-D: variable "rad_to_deg"  was declared but never referenced
+  	double Temperatur,cls,roll,pitch,rad_to_deg,Ax,Ay,Az;
+../Src/main.c(84): warning:  #177-D: variable "Ax"  was declared but never referenced
+  	double Temperatur,cls,roll,pitch,rad_to_deg,Ax,Ay,Az;
+../Src/main.c(84): warning:  #177-D: variable "Ay"  was declared but never referenced
+  	double Temperatur,cls,roll,pitch,rad_to_deg,Ax,Ay,Az;
+../Src/main.c(84): warning:  #177-D: variable "Az"  was declared but never referenced
+  	double Temperatur,cls,roll,pitch,rad_to_deg,Ax,Ay,Az;
+../Src/main.c(85): warning:  #550-D: variable "offset_gyro"  was set but never used
+  	double offset_gyro[3],offset_acc[3],winkel[3],dt,offset_temp;
+../Src/main.c(85): warning:  #177-D: variable "offset_acc"  was declared but never referenced
+  	double offset_gyro[3],offset_acc[3],winkel[3],dt,offset_temp;
+../Src/main.c(85): warning:  #550-D: variable "winkel"  was set but never used
+  	double offset_gyro[3],offset_acc[3],winkel[3],dt,offset_temp;
+../Src/main.c(85): warning:  #177-D: variable "offset_temp"  was declared but never referenced
+  	double offset_gyro[3],offset_acc[3],winkel[3],dt,offset_temp;
+../Src/main.c(110): warning:  #177-D: variable "mag_sens"  was declared but never referenced
+  	int16_t mag_sens[3];
+../Src/main.c: 21 warnings, 0 errors
+linking...
+Program Size: Code=14488 RO-data=560 RW-data=12 ZI-data=1300  
+"12345\12345.axf" - 0 Error(s), 21 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM::CMSIS:CORE:5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_12345
+  G:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  G:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
